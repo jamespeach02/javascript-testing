@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    function add7 (num) {
+        return num + 7; 
+    }
+
+    function multiple (num1, num2) {
+        return num1 * num2; 
+    }
+
+    function capitalize (string) {
+        var firstLetter = string[0].toUpperCase(); 
+        var modifiedString = string.slice(1); 
+        var modifiedString = modifiedString.toLowerCase(); 
+        var newString = firstLetter + modifiedString; 
+        return newString; 
+    }
+
+    function lastLetter (string) {
+        return string[string.length - 1]; 
+    }
+
+    console.log(lastLetter('what')); 
+  </script>
+</body>
+</html>
